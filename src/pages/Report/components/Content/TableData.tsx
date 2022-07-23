@@ -42,7 +42,6 @@ const TableData = () => {
   return (
     <div className='content__table'>
    <div className='table'>
-      {on?
          ( <DataGrid 
               rowHeight={29}
               className={classes.root}
@@ -52,8 +51,6 @@ const TableData = () => {
               components={{ Toolbar: GridToolbar }}
             /> 
          )
-        :<h1> choose your data</h1>
-        }   
      </div>
      </div>
    
